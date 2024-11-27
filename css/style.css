@@ -28,7 +28,7 @@ body {
 }
 
 .tulisan {
-  width: 500px;
+  width: 100%;
   text-align: center;
 }
 
@@ -38,19 +38,19 @@ body {
 }
 
 .tulisan h2 {
-  font-size: 60px;
+  font-size: 5vw;
 }
 
 .tulisan h4 {
-  font-size: 30px;
+  font-size: 3vw;
   font-weight: 100;
   margin-top: -20px;
 }
 
 .tulisan h1 {
   font-family: "Dongle", sans-serif;
-  font-size: 150px;
-  line-height: 100px;
+  font-size: 10vw;
+  line-height: 1;
 }
 
 .title .gambar {
@@ -61,9 +61,9 @@ body {
 }
 
 .title .gambar img {
-  width: 250px;
+  width: 40%;
   position: absolute;
-  right: 550px;
+  right: 10%;
   transform: translateX(50px);
   /* cari tau cara menengahan balon kadonya */
   /* animation: gambarBox 1s linear infinite; */
@@ -124,23 +124,26 @@ body {
 }
 
 .tutupKado {
-  width: 200px;
+  width: 100%;
+  max-width: 200px;
   position: absolute;
   top: 0;
   z-index: 10;
 }
 
 .boxKado {
-  width: 180px;
+  width: 100%;
+  max-width: 180px;
   position: absolute;
   bottom: 0;
   z-index: 9;
 }
 
 .kertasUcapan {
-  width: 100px;
+  width: 100%;
+  max-width: 100px;
   position: absolute;
-  bottom: 20px;
+  bottom: 2px;
   z-index: 5;
 }
 
@@ -184,12 +187,12 @@ body {
 
 .gelembung-kado img:nth-child(1) {
   animation-delay: 1s;
-  width: 25px;
+  width: 5vw;
 }
 
 .gelembung-kado img:nth-child(2) {
   animation-delay: 2s;
-  width: 30px;
+  width: 6vw;
 }
 
 .gelembung-kado img:nth-child(3) {
@@ -198,17 +201,17 @@ body {
 
 .gelembung-kado img:nth-child(4) {
   animation-delay: 1s;
-  width: 25px;
+  width: 5vw;
 }
 
 .gelembung-kado img:nth-child(5) {
   animation-delay: 3.5s;
-  width: 40px;
+  width: 7vw;
 }
 
 .gelembung-kado img:nth-child(6) {
   animation-delay: 6s;
-  width: 50px;
+  width: 10vw;
 }
 
 .gelembung-kado img:nth-child(7) {
@@ -217,7 +220,7 @@ body {
 
 .gelembung-kado img:nth-child(8) {
   animation-delay: 2s;
-  width: 20px;
+  width: 4vw;
 }
 
 .gelembung-kado img:nth-child(9) {
@@ -257,32 +260,32 @@ body {
 
 .kertas img:nth-child(1) {
   animation-delay: 2s;
-  width: 25px;
+  width: 5vw;
 }
 
 .kertas img:nth-child(2) {
   animation-delay: 1s;
-  width: 10px;
+  width: 3vw;
 }
 
 .kertas img:nth-child(3) {
   animation-delay: 3s;
-  width: 10px;
+  width: 3vw;
 }
 
 .kertas img:nth-child(4) {
   animation-delay: 7s;
-  width: 25px;
+  width: 5vw;
 }
 
 .kertas img:nth-child(5) {
   animation-delay: 6s;
-  width: 40px;
+  width: 7vw;
 }
 
 .kertas img:nth-child(6) {
   animation-delay: 2.5s;
-  width: 20px;
+  width: 4vw;
 }
 
 .kertas img:nth-child(7) {
@@ -291,7 +294,7 @@ body {
 
 .kertas img:nth-child(8) {
   animation-delay: 2s;
-  width: 20px;
+  width: 4vw;
 }
 
 .kertas img:nth-child(9) {
@@ -309,6 +312,7 @@ body {
 .kertas img:nth-child(12) {
   animation-delay: 4s;
 }
+
 
 .audio {
   display: none;
@@ -332,6 +336,7 @@ body {
 }
 
 .gambarDysa {
+  width: 100%;
   width: 250px;
   position: absolute;
   opacity: 0;
