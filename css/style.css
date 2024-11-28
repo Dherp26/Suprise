@@ -95,7 +95,7 @@ body {
   text-align: center;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 500px;
+  bottom: 360px;
   transition: all 0.5s;
 }
 
