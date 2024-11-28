@@ -28,7 +28,7 @@ body {
 }
 
 .tulisan {
-  width: 100%;
+  width: 500px;
   text-align: center;
 }
 
@@ -38,19 +38,19 @@ body {
 }
 
 .tulisan h2 {
-  font-size: 5vw;
+  font-size: 60px;
 }
 
 .tulisan h4 {
-  font-size: 3vw;
+  font-size: 30px;
   font-weight: 100;
   margin-top: -20px;
 }
 
 .tulisan h1 {
   font-family: "Dongle", sans-serif;
-  font-size: 10vw;
-  line-height: 1;
+  font-size: 150px;
+  line-height: 100px;
 }
 
 .title .gambar {
@@ -61,9 +61,9 @@ body {
 }
 
 .title .gambar img {
-  width: 40%;
+  width: 250px;
   position: absolute;
-  right: 10%;
+  right: 550px;
   transform: translateX(50px);
   /* cari tau cara menengahan balon kadonya */
   /* animation: gambarBox 1s linear infinite; */
@@ -95,7 +95,7 @@ body {
   text-align: center;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 160px;
+  bottom: 500px;
   transition: all 0.5s;
 }
 
@@ -124,26 +124,23 @@ body {
 }
 
 .tutupKado {
-  width: 100%;
-  max-width: 200px;
+  width: 200px;
   position: absolute;
   top: 0;
   z-index: 10;
 }
 
 .boxKado {
-  width: 100%;
-  max-width: 180px;
+  width: 180px;
   position: absolute;
   bottom: 0;
   z-index: 9;
 }
 
 .kertasUcapan {
-  width: 100%;
-  max-width: 100px;
+  width: 100px;
   position: absolute;
-  bottom: 2px;
+  bottom: 20px;
   z-index: 5;
 }
 
@@ -187,12 +184,12 @@ body {
 
 .gelembung-kado img:nth-child(1) {
   animation-delay: 1s;
-  width: 5vw;
+  width: 25px;
 }
 
 .gelembung-kado img:nth-child(2) {
   animation-delay: 2s;
-  width: 6vw;
+  width: 30px;
 }
 
 .gelembung-kado img:nth-child(3) {
@@ -201,17 +198,17 @@ body {
 
 .gelembung-kado img:nth-child(4) {
   animation-delay: 1s;
-  width: 5vw;
+  width: 25px;
 }
 
 .gelembung-kado img:nth-child(5) {
   animation-delay: 3.5s;
-  width: 7vw;
+  width: 40px;
 }
 
 .gelembung-kado img:nth-child(6) {
   animation-delay: 6s;
-  width: 10vw;
+  width: 50px;
 }
 
 .gelembung-kado img:nth-child(7) {
@@ -220,7 +217,7 @@ body {
 
 .gelembung-kado img:nth-child(8) {
   animation-delay: 2s;
-  width: 4vw;
+  width: 20px;
 }
 
 .gelembung-kado img:nth-child(9) {
@@ -260,32 +257,32 @@ body {
 
 .kertas img:nth-child(1) {
   animation-delay: 2s;
-  width: 5vw;
+  width: 25px;
 }
 
 .kertas img:nth-child(2) {
   animation-delay: 1s;
-  width: 3vw;
+  width: 10px;
 }
 
 .kertas img:nth-child(3) {
   animation-delay: 3s;
-  width: 3vw;
+  width: 10px;
 }
 
 .kertas img:nth-child(4) {
   animation-delay: 7s;
-  width: 5vw;
+  width: 25px;
 }
 
 .kertas img:nth-child(5) {
   animation-delay: 6s;
-  width: 7vw;
+  width: 40px;
 }
 
 .kertas img:nth-child(6) {
   animation-delay: 2.5s;
-  width: 4vw;
+  width: 20px;
 }
 
 .kertas img:nth-child(7) {
@@ -294,7 +291,7 @@ body {
 
 .kertas img:nth-child(8) {
   animation-delay: 2s;
-  width: 4vw;
+  width: 20px;
 }
 
 .kertas img:nth-child(9) {
@@ -312,7 +309,6 @@ body {
 .kertas img:nth-child(12) {
   animation-delay: 4s;
 }
-
 
 .audio {
   display: none;
@@ -336,7 +332,6 @@ body {
 }
 
 .gambarDysa {
-  width: 100%;
   width: 250px;
   position: absolute;
   opacity: 0;
