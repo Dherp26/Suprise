@@ -1,0 +1,136 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fbe4e4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 50px;
+  background-color: #ff7f7f;
+  color: white;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+#countdown {
+  background-color: #ffe4e1; /* Soft pinkish background for a romantic feel */
+  padding: 60px 30px; /* More generous padding for a cozy vibe */
+  text-align: center; /* Center the content */
+  border-radius: 20px; /* Softer, rounded corners */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Subtle, romantic shadow */
+  max-width: 700px; /* Slightly wider for a more elegant look */
+  margin: 80px auto; /* Center the section with space from other content */
+  font-family: 'Georgia', serif; /* Elegant font for a romantic touch */
+}
+
+#countdown h2 {
+  font-size: 2.5em; /* Larger heading for emphasis */
+  color: #d76d6d; /* Soft, romantic red color */
+  margin-bottom: 40px; /* Space below the heading */
+  font-family: 'Dancing Script', cursive; /* Playful cursive font */
+}
+
+#countdown-timer {
+  font-size: 3em; /* Larger font for the timer to make it stand out */
+  font-weight: bold; /* Bold text for emphasis */
+  color: #fff; /* White text for high contrast */
+  background-color: #d76d6d; /* Soft red background */
+  padding: 20px 40px; /* Larger padding for the timer box */
+  border-radius: 30px; /* More rounded corners for a soft look */
+  display: inline-block; /* Ensure it fits around the content */
+  letter-spacing: 3px; /* Increased letter spacing for elegance */
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+#countdown-timer span {
+  color: #ffebf0; /* Light pinkish tint for a soft, romantic feel */
+}
+
+
+
+#memories {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Gallery images */
+.gallery img {
+  width: 30%; /* Adjust to a reasonable size */
+  max-width: 300px; /* Limit maximum size */
+  height: auto; /* Maintain aspect ratio */
+  margin: 10px;
+  border-radius: 8px;
+  transition: transform 0.3s ease; /* Add hover effect for smooth animation */
+}
+
+.gallery img:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+#love-quotes {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff0f0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ff7f7f;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer p {
+  margin: 0;
+}
+/* styles.css */
+
+/* Keyframe animation for floating hearts */
+@keyframes floatHearts {
+  0% {
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+  }
+  100% {
+      transform: translateY(-100px) rotate(360deg);
+      opacity: 0;
+  }
+}
+
+.heart {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  animation: floatHearts 3s ease-in-out infinite;
+  z-index: 10;
+}
+
+/* Add a glowing effect for hearts */
+@keyframes glowHeart {
+  0% {
+      box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+  }
+  50% {
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.9);
+  }
+  100% {
+      box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+  }
+}
+
+.heart.glowing {
+  animation: floatHearts 4s ease-in-out infinite, glowHeart 1.5s infinite;
+}
